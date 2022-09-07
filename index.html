@@ -27,18 +27,7 @@
 
     <!-- Título da Página -->
     <title>GL-V1</title>
-    <link rel="icon" type="imagem/png" href="./assets/img/logo02.jpg">
-
-    <script>
-      var back_redirect_back_link = 'https://galgoslucrativos.online/back1'
-       history.pushState({},"",location.href);
-       history.pushState({},"",location.href);
-      window.onpopstate = function(){
-       setTimeout(function () {
-       location.href = back_redirect_back_link;
-       },1);
-      };
-    </script> 
+    <link rel="icon" type="imagem/png" href="./assets/img/logo02.jpg"> 
     
     <style type="text/css">
       header {
@@ -57,28 +46,6 @@
         display: none }
       }
     </style>
-
-    <!-- Meta Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '2007191096147908');
-    fbq('init', '369220492085065');
-    fbq('init', '492507118888991');
-    fbq('init', '1540647319683241');
-    fbq('track', 'PageView');
-    fbq('track', 'ViewContent');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=2007191096147908&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
     
   </head>
 
@@ -341,6 +308,39 @@
         })
     }(); 
     </script>
+
+    <script>
+      var back_redirect_back_link = 'https://galgoslucrativos.online/back1'
+       history.pushState({},"",location.href);
+       history.pushState({},"",location.href);
+      window.onpopstate = function(){
+       setTimeout(function () {
+       location.href = back_redirect_back_link;
+       },1);
+      };
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2007191096147908');
+    fbq('init', '369220492085065');
+    fbq('init', '492507118888991');
+    fbq('init', '1540647319683241');
+    fbq('track', 'PageView');
+    fbq('track', 'ViewContent');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=2007191096147908&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
 
   </body>
 </html>
